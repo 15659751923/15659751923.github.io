@@ -1,0 +1,55 @@
+/*
+*同用样式
+*/
+ *,::before,::after{
+ 	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	/* 点击高亮效果 *//* 手指点击 清除默认的 高亮效果 透明 */
+	-webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	font-family: 'Microsoft Yahei,sans-serif';
+	 }
+input {
+	border: none;
+	-webkit-appearance: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+.f_l {
+	float：left;
+}
+
+.f_r {
+	float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.b_l {
+	border-left: 1px solid #eee;
+}
+.b_r {
+	border-right: 1px solid #eee;
+}
+.b_t {
+	border-top: 1px solid #eee;
+}
+.b_b {
+	border-bottom: 1px solid #eee;
+}
